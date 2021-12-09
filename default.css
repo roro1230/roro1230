@@ -81,10 +81,6 @@ h6{ font-size: 16px; }
 	border: 1px solid var(--borderColor);
 	border-radius: 5px 5px 0 0;
 
-	-webkit-box-shadow: 30px 0px 12px 0px rgba(0,0,0,0.62);
-	-moz-box-shadow: 30px 0px 12px 0px rgba(0,0,0,0.62);
-	box-shadow: 30px 0px 12px 0px rgba(0,0,0,0.62);
-
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	
