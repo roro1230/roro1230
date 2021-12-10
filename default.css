@@ -63,6 +63,10 @@ h6{ font-size: 16px; }
 	overflow: auto;
 }
 
+.post-wrapper{
+
+}
+
 .main-container{
 	width: 1200px;
 	margin: 0 auto;
@@ -163,6 +167,16 @@ h6{ font-size: 16px; }
 	width: 250px;
 	object-fit: cover;
 	border: 2px solid var(--borderColor);
+}
+
+#thumbnail{
+	display:  block;
+	margin: 0 auto;
+
+	height:  150px;
+	width: 100%;
+	object-fit: cover;
+
 }
 
 #preview-shadow{
@@ -314,6 +328,34 @@ h6{ font-size: 16px; }
 	.right-column{
 		justify-content: center;
 	}
+}
+
+.post-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+	justify-content: center;
+	object-fit: cover;
+	gap: 50px;
+	padding-bottom: 50px;
+}
+
+.post{
+	border: 1px solid var(--borderColor);
+}
+
+.post-preview{
+	background-color: #fff;
+	padding: 10px;
+}
+
+.post-intro{
+	color: #4b5156;
+	font-size: 15px;
+}
+
+.post-title{
+	color: black;
+	margin: 0;
 }
 
 
