@@ -165,8 +165,8 @@ h6{ font-size: 16px; }
 
 	height:  363px;
 	width: 250px;
-	object-fit: cover;
-	border: 2px solid var(--borderColor);
+	
+	border: 1px solid var(--borderColor);
 }
 
 #thumbnail{
@@ -320,7 +320,7 @@ h6{ font-size: 16px; }
 	grid-template-columns: 1fr;
 	
 	grid-template-areas: 
-		'navigation-wrapper '
+		'navigation-wrapper'
 		'left-column'
 		'right-column'
 	}
